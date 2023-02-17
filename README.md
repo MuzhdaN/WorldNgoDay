@@ -16,10 +16,15 @@ Let's celebrate supporting NGOs!
 <--! ADD IMAGE OF THE RESPONSIVE APP ASAP -->
 
 
-## Design
+## **Design**
 
-### Wireframes
-<--! ADD WIREFRAMES AS SOON AS APPROUVED -->
+### **Wireframes**
+#### **Desktop**
+![Desktop wireframe](./assets/images/desktop.png)
+#### **Mobile**
+![Desktop wireframe](./assets/images/mobile.png)
+
+--- 
 
 ## Technologies
 - Balsamiq: Wireframes were created using [Balsamiq Wireframes for Desktop ](https://balsamiq.com/wireframes/desktop/)
