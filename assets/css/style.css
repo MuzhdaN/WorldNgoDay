@@ -71,3 +71,21 @@
 .ngo-container {
     text-align: justify;
 }
+
+ /* NGOs page buttons */
+ .btn-ngo-link {
+    background-color: #64a19d;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0; 
+  }
+
+.btn-ngo-link:hover {
+    background-color: #5b8885;
+    color: #fff;
+}
