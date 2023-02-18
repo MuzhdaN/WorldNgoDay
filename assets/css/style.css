@@ -53,16 +53,28 @@ body {
     background-color: transparent;
 }
 
+/* About the emergency */
+#aboutTheEmergency {
+    margin-top: 4.674rem;
+}
+
+.emergency-container {
+    padding: 0.75rem 1rem 1rem 1rem;
+}
+
+.emergency-container h2 {
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.arrow-down {
+    color: #00000080;
+}
 
 /* NGOs section */
 .they-help-container h2 {
     background-color: #f8f9fa;
     margin-bottom: 0;
     padding: 1.5rem 0 1.5rem 0;
-}
-
-#ngo-section {
-    margin-top: 6rem;
 }
 
 /* NGO logo image */
