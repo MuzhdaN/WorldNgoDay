@@ -7,11 +7,37 @@
 <!--You can help too ---------------------->
 
 
-/* .card {
-    width: 18rem;
-} */
 
-.card-link {
+
+
+
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  }
+
+  .contact-section {
+    padding-top: 5rem;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+    
+  }
+
+  .contact-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+
+  .text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .card-link {
     text-transform: uppercase;
-}
-
+    color: #64a19d;
+    
+  }
