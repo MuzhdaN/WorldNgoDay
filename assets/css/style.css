@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +9,7 @@
 
 body {
     letter-spacing: 0.0625em;
+    font-family: 'Nunito', sans-serif !important;
 }
 
 /* Navbar */
@@ -51,6 +55,12 @@ body {
 
 
 /* NGOs section */
+.they-help-container h2 {
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
 #ngo-section {
     margin-top: 6rem;
 }
