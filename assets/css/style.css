@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    letter-spacing: 0.0625em;
+}
+
 /* Navbar */
 #mainNav {
     min-height: 3.5rem;
@@ -55,21 +59,48 @@
 .ngo-main-img {
     margin: auto;
     max-width: 250px;
+    padding-top: 1rem;
 }
 
 /* NGO container */
 .parent-ngo-container {
-    border: solid rgb(184, 181, 181) 2px;
-    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
-    margin-bottom: 0.75rem;
-}
-
-.ngo-container p {
-    font-weight: 600;
+    padding: 0.75rem 1rem 1.75rem 1rem;
 }
 
 .ngo-container {
     text-align: justify;
+}
+
+/* Light container */
+.container-light p {
+    font-weight: 500;
+    color: #00000080;
+}
+
+.container-light h3 {
+    font-weight: 500;
+    color: #212529;
+    padding-top: 0.75rem;
+}
+
+.container-light {
+    background-color: #f8f9fa;
+}
+
+/* Dark Container  */
+.container-dark p {
+    font-weight: 500;
+    color: #ffffff80;
+}
+
+.container-dark h3 {
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 0.75rem;
+}
+
+.container-dark {
+    background-color: #212529;
 }
 
  /* NGOs page buttons */
