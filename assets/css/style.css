@@ -3,3 +3,23 @@
     padding: 0;
     margin: 0;
 }
+
+/* NGO logo image */
+.ngo-main-img {
+    margin: auto;
+    max-width: 250px;
+}
+
+/* NGO container */
+.parent-ngo-container {
+    border: solid rgb(184, 181, 181) 2px;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.ngo-container p {
+    font-weight: 600;
+}
+.ngo-container {
+    text-align: justify;
+}
