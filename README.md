@@ -13,6 +13,8 @@ The NGOs present in our application were chosen at random and with the sole purp
 
 Let's celebrate supporting NGOs!
 
+Visit the live [website](https://muzhdan.github.io/WorldNgoDay/) in here
+
 <--! ADD IMAGE OF THE RESPONSIVE APP ASAP -->
 
 
@@ -33,3 +35,4 @@ Let's celebrate supporting NGOs!
 ## **Credits**
 - The explanation about the way the donations are used comes from the websites of the NGOs presented in our application.
 - General knowledge about NGOs comes from [Wikipedia](https://en.wikipedia.org/wiki/Non-governmental_organization) and the official #NGO World Day website [NGO World Day](https://worldngoday.org/).
+- Logo for the head was taken from [flaticon](https://www.flaticon.com/search?word=help)
