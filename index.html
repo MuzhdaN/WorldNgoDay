@@ -15,15 +15,20 @@
     <!-- bootstrap css bundle -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <title>Earthquake Relief</title>
+  
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+  
 </head>
 
-<body>
+<body id="top">
   
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#" id="logoName">Turkey-Syria Earthquake Relief</a>
+            <a class="navbar-brand" href="#top" id="logoName">Turkey-Syria Earthquake Relief</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,26 +37,52 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About-us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">They Help</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">You can help too</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-us">About-us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutTheEmergency">They Help</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#donation-section">You can help too</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End of Navbar -->
-    <!-- Hero video and  about us-->
-    <section class="hero-section">
-        <div class="hero hero-about-section">
-            <video width="600" height="400" id="myVideo" controls class="video" id="video" preload="metadata">
-                <source src="./assets/video/earthquake1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="hero-image" id="hero-image">
-                <h1 class="centered">She Needs Your</h1>
-                <h2 class="centered2">HELP!</h2>
-                <img width="550" height="350" src="./assets/images/earthquake3.jpg" alt="injured Girl" id="image_background">
+
+    
+   <!-- Hero video and about us section -->
+   <section class="hero-section hero" id="about-us">
+    <div class="container text-center">
+        <div class="row"> 
+            <div class="hero-about-section col-lg-5 d-flex align-items-center add-flex-grow">
+            <div class="inner-column">
+                    <div class="section-title mb-3">
+                        <h2>About Us</h2>
+                        <hr class="border border-dark border-2 opacity-50">
+                    </div>
+                    <div class="text"> 
+                        Earthquake Relief is a collective that exists to connect you with numerous NGO’s 
+                        that actively offer relief to the victims of earthquakes around the globe. 
+                        We do this so you can be pointed in the right direction having felt compelled 
+                        to give towards the relief effort.  
+                        Currently we are focusing on the Turkey Syria crisis.
+                </div>
+            </div>
+            </div>
+            <div class="hero-about-section col-lg-7 p-3 d-flex align-items-center">
+                <div id="image-section" class="container">
+                    <div class="row">
+                        <div class="hero-about-section col-lg-5 d-flex align-items-center">
+                            <video width="600" height="400" id="myVideo" controls class="video" id="video" preload="metadata">
+                                <source src="./assets/video/earthquake1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="hero-image" id="hero-image">
+                                <h1 class="centered">She Needs Your</h1>
+                                <h2 class="centered2">HELP!</h2>
+                                <img width="550" height="350" src="./assets/images/earthquake3.jpg" alt="injured Girl" id="image_background">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="hero-about-section add-flex-grow container px-5 py-5 text-center">
@@ -65,6 +96,7 @@
             </p>
         </div>
     </section>
+
     <!-- About-->
     <section class="about-section text-center" id="about">
         <div class="container px-4 py-5">
@@ -238,11 +270,11 @@
             </div>
         </div>
     </section>
-
     <!-- End of NGOs Information -->
   
-    <!--You can help too-->
-    <section class="donations-section" >
+
+      <!--You can help too-->
+    <section class="donations-section" id="donation-section">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto ">
@@ -262,7 +294,7 @@
                 <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-3">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <a href="https://www.savethechildren.es/donacion-ong/fondo-emergencias" target="_blank"
+                            <a href="assets/images/ngos-images/save-the-children-logo.png" target="_blank"
                                 class="card-link">Save the children
                             </a>
                             <hr class="my-4 mx-auto" />
@@ -357,17 +389,17 @@
                         <img class="mx-auto rounded-circle" src="https://ca.slack-edge.com/T0L30B202-U02G27A55T4-e3ea29836424-512" alt="Nigel-image" />
                         <h5>Nigel Doberer</h5>
                         <p class="text-muted">Developer</p>
-                        <a class="btn btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-social mx-2" href="https://www.linkedin.com/in/nigeldoberer/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-social mx-2" href="https://github.com/Niged01"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="https://ca.slack-edge.com/T0L30B202-U027SSHGWR2-ga158f8e4705-512" alt="Marcello-image" />
+                        <img class="mx-auto rounded-circle" src="https://ca.slack-edge.com/T0L30B202-U027SSHGWR2-ee27a6441a05-512" alt="Marcello-image" />
                         <h5>Marcello Muylaert</h5>
                         <p class="text-muted">Developer</p>
-                        <a class="btn btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-social mx-2" href="https://www.linkedin.com/in/marcello-muylaert-519b71201/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-social mx-2" href="https://github.com/MarcelloMuy"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
                 <div class="col">
