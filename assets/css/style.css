@@ -52,6 +52,7 @@ body {
 #mainNav .navbar-nav .nav-item:focus {
     outline: none;
     background-color: transparent;
+    
 }
 
 /* hero section*/
@@ -59,10 +60,24 @@ body {
 .hero-section {
     display: flex;
     padding-top: 100px !important;
+    background-color: #f8f9fa;
+}
+
+.hero-section p {
+    color: #00000080;
 }
 
 .hero-about-section {
     flex: 1;
+}
+
+.add-flex-grow {
+    flex-grow: 2;
+}
+
+.add-flex-grow p {
+    text-align: justify;
+    margin-top: 1rem;
 }
 
 .hero-about-section:hero-about-section{
@@ -101,10 +116,6 @@ div.hero-image {
 /* about section */
 .about-section {
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
-
-#about {
-    margin-top: 1.674rem;
 }
 
 .about-container {
