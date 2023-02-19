@@ -19,12 +19,17 @@ Let's celebrate supporting NGOs!
 ## **Design**
 
 ### **Wireframes**
-#### **Desktop**
+### **Desktop**
 ![Desktop wireframe](./assets/images/desktop.png)
 #### **Mobile**
 ![Desktop wireframe](./assets/images/mobile.png)
 
 --- 
 
-## Technologies
+## **Technologies**
 - Balsamiq: Wireframes were created using [Balsamiq Wireframes for Desktop ](https://balsamiq.com/wireframes/desktop/)
+- Bootstrap: Part of the styling of our application was made using Bootstrap 5.2.3 [Bootstrap](https://getbootstrap.com/)
+
+## **Credits**
+- The explanation about the way the donations are used comes from the websites of the NGOs presented in our application.
+- General knowledge about NGOs comes from [Wikipedia](https://en.wikipedia.org/wiki/Non-governmental_organization) and the official #NGO World Day website [NGO World Day](https://worldngoday.org/).
