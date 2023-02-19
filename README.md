@@ -36,3 +36,4 @@ Visit the live [website](https://muzhdan.github.io/WorldNgoDay/) in here
 - The explanation about the way the donations are used comes from the websites of the NGOs presented in our application.
 - General knowledge about NGOs comes from [Wikipedia](https://en.wikipedia.org/wiki/Non-governmental_organization) and the official #NGO World Day website [NGO World Day](https://worldngoday.org/).
 - Logo for the head was taken from [flaticon](https://www.flaticon.com/search?word=help)
+- The information about the NGOs and logos was taken from their official websites and social media.
