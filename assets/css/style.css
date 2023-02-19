@@ -69,9 +69,9 @@ body {
 
 /* About the emergency */
 
-.emergency-container {
+ /* {
     padding: 0.75rem 1rem 1rem 1rem;
-}
+} */
 
 .emergency-container h2 {
     padding: 1.5rem 0 1.5rem 0;
@@ -92,7 +92,7 @@ body {
 .ngo-main-img {
     margin: auto;
     max-width: 250px;
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 /* NGO container */
@@ -155,7 +155,8 @@ body {
 }
 
 /* You can help too */
-.container {
+.container,
+.emergency-container {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
