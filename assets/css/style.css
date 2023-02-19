@@ -115,7 +115,7 @@ div.hero-image {
 
 /* about section */
 .about-section {
-    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to bottom, #64a19d, #88b6bb, #afcbd4, #d5e1e9, #f8f9fa);
 }
 
 .about-container {
@@ -244,7 +244,7 @@ div.hero-image {
 
 #team {
     margin-top: 1rem;
-}
+} 
 
 .team-member {
     margin-bottom: 3rem;
