@@ -95,40 +95,20 @@ div.hero-image {
 
 /* about section */
 .about-section {
-    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background-image: linear-gradient(to bottom, #64a19d, #88b6bb, #afcbd4, #d5e1e9, #f8f9fa);
 }
 
 .about-container {
     text-align: justify;
 }
 
-/* About the emergency */
-
-.emergency-container {
-    padding: 0.75rem 1rem 1rem 1rem;
-    text-align: justify;
-} 
-
-.emergency-container h2 {
-    padding: 1.5rem 0 1.5rem 0;
-}
-
-.arrow-down {
-    color: #00000080;
-}
-
 /* NGOs section */
-.they-help-container h2 {
-    background-color: #f8f9fa;
-    margin-bottom: 0;
-    padding: 1.5rem 0 1.5rem 0;
-}
 
 /* NGO logo image */
 .ngo-main-img {
     margin: auto;
     max-width: 250px;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 /* NGO container */
@@ -169,7 +149,7 @@ div.hero-image {
 }
 
 .container-dark {
-    background-color: #212529;
+    background-color: #000;
 }
 
 /* NGOs page buttons */
@@ -244,7 +224,7 @@ div.hero-image {
 
 #team {
     margin-top: 1rem;
-}
+} 
 
 .team-member {
     margin-bottom: 3rem;
