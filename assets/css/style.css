@@ -127,7 +127,6 @@ div.hero-image {
 /* Light container */
 .container-light p {
     font-weight: 500;
-    color: #00000080;
 }
 
 .container-light h3 {
@@ -221,7 +220,11 @@ div.hero-image {
 
 .card-link {
     text-transform: uppercase;
-    color: #64a19d;    
+    color: #64a19d;   
+}
+
+.card-link:hover {
+    color: #5b8885;
 }
 
 /* Collaborators section */
