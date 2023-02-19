@@ -124,6 +124,14 @@ div.hero-image {
     text-align: justify;
 }
 
+.hero-section hr,
+.ngo-container hr,
+#team hr {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+
 /* Light container */
 .container-light p {
     font-weight: 500;
