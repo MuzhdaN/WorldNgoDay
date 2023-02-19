@@ -61,9 +61,10 @@ body {
 .hero-section {
     display: flex;
     justify-content: space-around;
-    padding-top: 6rem !important;
+    padding-top: 7.5rem !important;
     /* background-color: #efecec; */
-    background-color: #f8f9fa;
+    background-color: #f7f6f6;
+    padding-bottom: 1.5rem;
 }
 
 /* .hero-section p {
@@ -114,7 +115,8 @@ div.hero-image {
     top: 45%;
     left: 20%;
     transform: translate(-50%, -50%);
-  }
+}
+
 
 /* about section */
 .about-section {
@@ -298,3 +300,13 @@ div.hero-image {
 footer {
     background-color: #4c7976;
 }
+
+
+
+/* Responsivness for mobile */
+@media only screen and (max-width: 600px) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+  }
