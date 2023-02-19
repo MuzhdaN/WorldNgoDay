@@ -153,3 +153,53 @@ body {
     background-color: #5b8885;
     color: #fff;
 }
+
+/* You can help too */
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.donation,
+.lead {
+  color:whitesmoke;
+  text-align: center;
+}
+
+.donations-section {
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #64a19d, #50786d, #3b5144, #242d23, #070a00);
+}
+
+.don-bg {
+  background:linear-gradient(to top, #64a19d, #50786d, #3b5144, #242d23, #070a00);
+}
+
+.don-links-section {
+    padding-top: 1rem;
+}
+
+.don-links-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+
+.don-links-section .card hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+
+.text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+
+.card-link {
+    text-transform: uppercase;
+    color: #64a19d;    
+}
+
