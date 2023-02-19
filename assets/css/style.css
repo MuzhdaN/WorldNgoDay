@@ -54,13 +54,31 @@ body {
     background-color: transparent;
 }
 
+/* hero section*/
+
+.hero-section {
+    display: flex;
+    padding-top: 100px !important;
+}
+
+.hero-about-section {
+    flex: 1;
+}
+
+.hero-about-section:hero-about-section{
+    margin-right: 20px;
+}
+
+.hero {
+    padding-left: 50px;
+}
 /* about section */
 .about-section {
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 #about {
-    margin-top: 4.674rem;
+    margin-top: 1.674rem;
 }
 
 .about-container {
