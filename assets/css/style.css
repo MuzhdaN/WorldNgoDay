@@ -203,3 +203,34 @@ body {
     color: #64a19d;    
 }
 
+/* Collaborators section */
+
+#team {
+    margin-top: 1rem;
+}
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+.team-member img {
+    width: 7rem;
+    height: 7rem;
+    border: 0.2rem solid #64a19d;
+}
+
+.team-member h5, .team-member .h5 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.team-member .btn-social {
+    background-color: #64a19d;
+    color: #fff;
+    /* width: 5rem; */
+}
+
+.team-member .btn-social:hover {
+    background-color: #64a19d94;
+}
