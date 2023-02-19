@@ -75,14 +75,28 @@ body {
 
 div.hero-image {
     display:none;
-    width: 600px;
-    height: 400px;
 }
 
 .hero-image {
     width: 600px;
     height: 400px;
 }
+
+.centered {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered2 {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
 /* about section */
 .about-section {
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
