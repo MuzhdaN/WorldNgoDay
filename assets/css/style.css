@@ -62,35 +62,10 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 7.5rem !important;
-    /* background-color: #efecec; */
     background-color: #f7f6f6;
     padding-bottom: 1.5rem;
 }
 
-/* .hero-section p {
-    color: #00000080;
-}
-
-.hero-about-section {
-    flex: 1;
-}
-
-.add-flex-grow {
-    flex-grow: 2;
-}
-
-.add-flex-grow p {
-    text-align: justify;
-    margin-top: 1rem;
-} */
-
-/* .hero-about-section:hero-about-section{
-    margin-right: 20px;
-}
-
-.hero {
-    padding-left: 50px;
-} */
 
 div.hero-image {
     display:none;
@@ -131,6 +106,7 @@ div.hero-image {
 
 .emergency-container {
     padding: 0.75rem 1rem 1rem 1rem;
+    text-align: justify;
 } 
 
 .emergency-container h2 {
