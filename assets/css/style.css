@@ -97,6 +97,7 @@ div.hero-image {
     left: 20%;
     transform: translate(-50%, -50%);
   }
+
 /* about section */
 .about-section {
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -112,9 +113,9 @@ div.hero-image {
 
 /* About the emergency */
 
- /* {
+.emergency-container {
     padding: 0.75rem 1rem 1rem 1rem;
-} */
+} 
 
 .emergency-container h2 {
     padding: 1.5rem 0 1.5rem 0;
