@@ -30,23 +30,53 @@ Visit the live [website](https://muzhdan.github.io/WorldNgoDay/) in here.
 TO DO
 
 ## **Testing**
-<hr>
 
 ### Links
-TO DO
+
+All internal and external links have been tested and work correctly.
+
 ### Markup validator
-TO DO 
-### CSS validator£
-TO DO
+
+After the validation of the index.html at the official W3 Markup Validator [Markup validator](https://validator.w3.org/), there were:
+- 3 errors
+- 1 warning
+- 9 info statements
+
+All of these points were addressed and the index.html was passed again for validation resulting in all errors and info statements being solved.
+The warning remains, but it can't be solved following the suggestion given by the Markup validator.
+
+![This is the result of the markup validator](/assets/images/markup-result.png)
+
+The required div tags for this section are already in place and there isn't any need to use an h1-h2 tag.
+
+### CSS validator
+
+The style provided through the style.css file passed the validation at the official W3 validator Service at [W3 validator](https://jigsaw.w3.org/css-validator/validator.html.en)
+
+![This is the css from the w3 validator](/assets/images/css_w3result.png)
+
 ### JS Hint
-TO DO
+
+JavaScript validation at [JS Hint](https://jshint.com/) passed without any errors nor warnings:
+
+![This is the jshint result](/assets/images/jshint-result.png)
+
 ### Lighthouse
-TO DO
+
+From an accesibility perspective, these are the results for desktop and mobile run on the lighthouse of the Google Dev Tools:
+
+![This is the result for desktop](/assets/images/lighthouse_desktop.png)
+
+![This is the result for mobile](/assets/images/lighthouse_mobile.png)
+
+
 ### Responsiveness
-TO DO
+
+The responsiveness has been succesfully tested in desktop, laptop and mobile.
+All of the content (text, media, links) keep their consistency and don't appear pixelated.
+The image of the application viewed on different devices comes from [Am I responsive](https://ui.dev/amiresponsive). 
 
 ## **Design**
-<hr>
 
 ### Wireframes
 
@@ -56,18 +86,16 @@ TO DO
 ![Desktop wireframe](./assets/images/mobile.png)
 
 ## **Technologies**
-<hr>
 
 - HTML, CSS, JavaScript
 - Balsamiq: Wireframes were created using [Balsamiq Wireframes for Desktop ](https://balsamiq.com/wireframes/desktop/)
 - Bootstrap: Part of the styling of our application was made using Bootstrap 5.2.3 [Bootstrap](https://getbootstrap.com/)
 
 ## **Deployment**
-<hr>
+
 TO DO
 
 ## **Credits**
-<hr>
 
 ### Content
 - The explanation about the way the donations are used comes from the websites of the NGOs presented in our application.
@@ -80,5 +108,5 @@ TO DO
 - The video used in the hero section comes from ????
 
 ## **Acknowledgements**
-<hr>
+
 TO ADD
