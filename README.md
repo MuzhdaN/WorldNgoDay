@@ -177,7 +177,8 @@ The steps to deploy were as follows:
 ### Media
 - Logo for the head was taken from [flaticon](https://www.flaticon.com/search?word=help)
 - [Googlefonts](https://fonts.google.com/)
-- The video used in the hero section comes from ????
+- The original video used in the hero section is available here [YouTube](https://www.youtube.com/watch?v=3RIq95LEzEQ)
+- Images used for editing the video to a shorter clip: [Al monitor](https://www.al-monitor.com/originals/2023/02/earthquake-kills-more-3000-turkey-syria) and [Middle East Eye](https://www.middleeasteye.net/opinion/turkey-syria-earthquake-europe-heartless-face-billions-war)
 
 ## **Acknowledgements**
 
