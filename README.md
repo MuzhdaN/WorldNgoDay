@@ -16,18 +16,63 @@ Visit the live [website](https://muzhdan.github.io/WorldNgoDay/) in here.
 ## **Features**
 <hr>
 
-### Existing features
-- Navigation bar TO DO
-- Hero section TO DO
-    - About us section
-- They help section TO DO
-- You can help too section TO DO
-- Collaborators section TO DO
-- Footer TO DO
+### **Existing features**
+- **Navigation bar** 
+![navbar](https://user-images.githubusercontent.com/79607397/220002379-24d3290e-86e8-4f5f-8966-c954cee484c0.PNG)
+In the navbar in the left side, we have our website name and in the left side the sections of our website. By clicking over each one it will take you to its realted section. 
+
+<br>
+
+- **Hero section** 
+   - About-us part
+    ![about-us2](https://user-images.githubusercontent.com/79607397/220002742-c3a45c56-5f9a-45dd-9e04-4f11b8cc0148.PNG)
+The hero-section contains about-us, which tells what our website is and what we are trying to achieve. Additionally, on the left side of the hero-section there is a video showing the related scenes from the earthquake. Research shows people become annoyed with autoplay and even block it on their computers, so we have not set autoplay for the video for a better user experience.  
+
+    - Video part
+    ![about-us1](https://user-images.githubusercontent.com/79607397/220002757-d34e2c0f-1bd9-4dc0-a798-d14a69dd97ab.PNG)
+A few seconds after the video ends, a picture of a little girl appears with a message over it. 
+
+<br>
+
+- **About NGOs section**
+   ![about-NGOs](https://user-images.githubusercontent.com/79607397/220007345-9b13ced0-1887-4ebc-831e-f4ec2f1a129d.PNG)
+This section recognizes and celebrates NGOs hard wordk and provides a short information about it. <br> 
+*As this section is at in the end of the hero-section, therefore, it can be accessed from the navbar by clicking about-us.* 
+
+<br>
+
+- **They help section**
+    ![they-help1](https://user-images.githubusercontent.com/79607397/220004429-f29e2da8-c09f-4429-9c99-c7d74c5d9f1c.PNG)
+![they-help2](https://user-images.githubusercontent.com/79607397/220004452-bcb536ea-fa63-41c5-94bc-b00587353b47.PNG)
+
+In this section, you can find a list of the NGOs that are currently helping Turkey and Syria. Each NGO has been carefully chosen to ensure their credibility. 
+As the logo and name of the NGOs are the same, the logo was chosen as their title. Thereafter, a short introduction to the organization's work, along with an explanation of how it is currently helping Turkey and Syria, has been added. Also at the end, a link to their website has also been added, so people can learn more about them there.
+
+<br>
+
+- **You can help too section**
+ ![you-can-help](https://user-images.githubusercontent.com/79607397/220006311-a82badfd-6fdd-40b9-ae20-7070a1fcacce.PNG)
+This section contains a direct link to each of the NGOs from the They-Help-section. Information has been added about how the donations will be used so the people would know how they are helping the affected ones. 
+
+<br>
+
+- **Collaborators section** 
+![team-section](https://user-images.githubusercontent.com/79607397/220006762-460a2788-9af7-4c60-84b8-2c6fa2a185c5.PNG)
+This section shows the people who has worked on this website
+ 
+ <br>
+ 
+- **Footer** 
+  ![footer](https://user-images.githubusercontent.com/79607397/220006884-b2fbc52a-874e-4983-af36-8804d98d2918.PNG)
+  This footer shows the copyright of this website and the date and theme of the hackathon.
+
+<br>
+
 
 ## **Features left to be implemented**
-<hr>
-TO DO
+- Add more NGOs 
+
+<br>
 
 ## **Testing**
 
@@ -53,7 +98,19 @@ The required div tags for this section are already in place and there isn't any 
 
 The style provided through the style.css file passed the validation at the official W3 validator Service at [W3 validator](https://jigsaw.w3.org/css-validator/validator.html.en)
 
-![This is the css from the w3 validator](/assets/images/css_w3result.png)
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
 
 ### JS Hint
 
@@ -69,12 +126,15 @@ From an accesibility perspective, these are the results for desktop and mobile r
 
 ![This is the result for mobile](/assets/images/lighthouse_mobile.png)
 
+<br>
 
 ### Responsiveness
 
 The responsiveness has been succesfully tested in desktop, laptop and mobile.
 All of the content (text, media, links) keep their consistency and don't appear pixelated.
 The image of the application viewed on different devices comes from [Am I responsive](https://ui.dev/amiresponsive). 
+
+<br>
 
 ## **Design**
 
@@ -85,15 +145,27 @@ The image of the application viewed on different devices comes from [Am I respon
 #### Mobile
 ![Desktop wireframe](./assets/images/mobile.png)
 
+<br>
+
 ## **Technologies**
 
 - HTML, CSS, JavaScript
 - Balsamiq: Wireframes were created using [Balsamiq Wireframes for Desktop ](https://balsamiq.com/wireframes/desktop/)
 - Bootstrap: Part of the styling of our application was made using Bootstrap 5.2.3 [Bootstrap](https://getbootstrap.com/)
 
+<br>
+
 ## **Deployment**
 
-TO DO
+This website was deployed on GitHub. <br>
+The steps to deploy were as follows:
+- In the GitHub repository, navigate to the *Settings* tab
+- On the right side, you will see the *pages* button after clicking that the GitHub pages will appear
+- Under *build and deployment* there is a *source* sub-heading
+- Under that there is a drop-down menu called *deploy from a branch*, select the main Branch and select *save*
+- After a few seconds a message is displayed to indicate the successful deployment. Finally the site link appears. 
+
+<br>
 
 ## **Credits**
 
@@ -109,4 +181,4 @@ TO DO
 
 ## **Acknowledgements**
 
-TO ADD
+TO DO
