@@ -181,4 +181,8 @@ The steps to deploy were as follows:
 
 ## **Acknowledgements**
 
-TO DO
+Each active member of the team was keen to the completion of this project.
+
+Well done everyone! Special thanks to our Scrum MASTER, Muzhda Noorzad, for solving all the conflicts before merging.
+
+Thanks to our families and friends for their support and patience during this hackathon weekend.
